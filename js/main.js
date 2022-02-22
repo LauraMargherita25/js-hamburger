@@ -1,6 +1,6 @@
-let btnClose = document.querySelector("#close"); 
-let hiddenMenu = document.querySelector("#hidden_menu");
+let btnOpenMenu = document.querySelector(".fa-bars"); 
+let hiddenMenu = document.querySelector(".hamburger-menu");
 
-btnClose.addEventListener("click", function(){
-   element.classList.toggle(hiddenMenu);
+btnOpenMenu.addEventListener("click", function(){
+    hiddenMenu.classList.add("show");
 })
