@@ -3,9 +3,10 @@ let btnCloseMenu = document.querySelector(".close")
 let hiddenMenu = document.querySelector(".hamburger-menu");
 
 btnOpenMenu.addEventListener("click", function(){
-    hiddenMenu.classList.add("show");
+    hiddenMenu.classList.add("active");
 })
 
 btnCloseMenu.addEventListener("click", function(){
-    hiddenMenu.classList.remove("show");
+    hiddenMenu.classList.remove("active");
 })
+
